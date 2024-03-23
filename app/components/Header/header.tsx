@@ -1,11 +1,11 @@
 const Header = () => {
   return (
     <>
-      <header className="flex justify-center items-center space-between bg-[#F8F8F8] text-[#343434] h-[96px] ml-[60px] mr-[60px] font-bold">
+      <header className="flex justify-center items-center space-between bg-[#F8F8F8] text-[#343434] h-[90px] ml-[40px] mr-[40px] font-bold">
 
         <a className="flex mr-[50px]" href="/">
 
-          <img className="w-[74px]" src="img/logo-default.png"></img>
+          <img className="w-[67px]" src="img/logo-default.png"></img>
 
         </a>
 
