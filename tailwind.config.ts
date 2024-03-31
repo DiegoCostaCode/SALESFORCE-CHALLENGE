@@ -8,13 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      dropShadow:{
+        "shadow1":"-10px -20px 5px rgba(0, 0, 0, 0.26)",
+        "shadow2":"25px 20px 5px rgba(0, 0, 0, 0.26)",
+        "text":"0px 5px 10px rgba(0, 0, 0, 0.25)",
+        "default":"0px 0px 25px rgba(0, 0, 0, 0.25)",
+        "blue-shine":"0px 0px 5px rgba(23, 157, 216, 0.50)"
+      },
+      colors:
+      {
+        "primary":"#179DD8",
+        "secondary":"#0F2A5D",
+        "sf-green":"#3A8B54",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       borderColor:{
-        "custom-blue":"#179DD8"
+        "salesforce-base":"#179DD8",
+        "salesforce-darkbase":"#0F2A5D",
       }
     },
   },

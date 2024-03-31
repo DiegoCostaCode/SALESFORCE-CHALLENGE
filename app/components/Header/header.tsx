@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <header className="flex justify-center items-center space-between bg-[#F8F8F8] text-[#343434] h-[90px] ml-[40px] mr-[40px] font-bold">
+      <header className="flex tracking-tighter justify-center items-center space-between  text-secondary h-[90px] ml-[40px] mr-[40px] font-bold">
 
         <a className="flex mr-[50px]" href="/">
 
@@ -10,14 +10,14 @@ const Header = () => {
         </a>
 
         <div className="flex flex-1 alijustify-center tracking-wide text-center">
-          <li className="mr-[50px] list-none">
-            <a>Serviços</a>
+          <li className="mr-[50px] list-none hover:text-primary">
+            <a>Produtos</a>
           </li>
 
-          <li className="mr-[50px] list-none">
+          <li className="mr-[50px] list-none hover:text-primary">
             <a>Trailhead</a>
           </li>
-          <li className="mr-[50px] list-none">
+          <li className="mr-[50px] list-none hover:text-primary">
             <a>Acessibilidade</a>
           </li>
         </div>
