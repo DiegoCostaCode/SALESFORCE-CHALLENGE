@@ -5,8 +5,9 @@ import Footer from "./components/Footer/footer";
 
 export default function Home() {
   return (
-    <main>
-      <Header />
+
+      <main>
+      
       <section className="flex flex-col items-center tracking-tighter ">
 
         <div className="flex items-center scale-110 my-[50px]">
@@ -39,7 +40,6 @@ export default function Home() {
 
           <img className="w-[550px]" src="../img/Entry1.png" ></img>
         </div>
-        
         
           <article className="my-[50px]">
             <div className="flex flex-col place-items-center">
@@ -81,6 +81,7 @@ export default function Home() {
               Melhore a interação com seus clientes com Eistein GPT."
               button="conhecer"
               fundo="#179DD8"
+              link="./datacloud/eisteingpt.tsx"
             />
             <Card
               image="../img/datacloud.png"
@@ -88,6 +89,7 @@ export default function Home() {
               description="Personalize a interação com seus clientes com a primeira inteligência artificial direcionada a CRM."
               button="conhecer"
               fundo="#3849DB"
+              link="./datacloud/"
             />
             <Card
               image="../img/salescloud.png"
@@ -95,6 +97,7 @@ export default function Home() {
               description="A melhor plataforma de CRM. Com integração com I.A, análise, e automatize dados com facilidade."
               button="conhecer"
               fundo="#0A8680"
+              link="./datacloud/salescloud.tsx"
             />
             <Card
               image="../img/marketingcloud.png"
@@ -102,13 +105,16 @@ export default function Home() {
               description="Personalize a interação com seus clientes com a primeira inteligência artificial direcionada a CRM."
               button="conhecer"
               fundo="#FF914D"
+              link="./datacloud/marketingcloud.tsx"
             />
           </div>
 
         </section>
 
       </section>
-      <Footer />
-    </main>
+
+      </main>
+    
+    
   );
 }

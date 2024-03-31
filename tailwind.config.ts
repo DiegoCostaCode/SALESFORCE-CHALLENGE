@@ -20,6 +20,7 @@ const config: Config = {
         "primary":"#179DD8",
         "secondary":"#0F2A5D",
         "sf-green":"#3A8B54",
+        "datacloud":"#3849DB",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -4,4 +4,5 @@ export interface Props {
     description:string;
     button:string;
     fundo:string;
+    link:string;
 }
