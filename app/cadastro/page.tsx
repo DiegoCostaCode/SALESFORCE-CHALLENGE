@@ -37,7 +37,7 @@ export default function Cadastro() {
 
                 <div className="flex flex-col flex-auto mb-[25px] mx-[25px]">
                     <label htmlFor="nome" className="font-bold ">País:</label>
-                    <input type="email" id="nome" name="nome" required placeholder="Digite seu país de origem" className="rounded-xl p-1 text-center"/>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu país de origem" className="rounded-xl p-1 text-center"/>
                 </div>
 
                 <div className="flex flex-col flex-auto mb-[25px] mx-[25px]">
