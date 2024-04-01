@@ -16,8 +16,7 @@ export default function Home() {
               <h1 className="text-5xl font-bold text-[#179DD8]">SUCESSO!</h1>
               <h3 className="text-4xl font-bold text-[#0F2A5D]">
                 Salesforce customer 360</h3>
-              <p className="my-5 text-[#343434] w-[450px]">O customer 360 é a nossa suíte de produtos e serviços q
-                ue ajuda 98% dos clientes a alcançar ou superar suas metas de ROI.</p>
+              <p className="my-5 text-[#343434] w-[450px]">O customer 360 é a nossa suíte de produtos e serviços que ajuda 98% dos clientes a alcançar ou superar suas metas de ROI.</p>
 
               <div className="flex items-center justify-start space-x-20 my-5">
 
@@ -76,12 +75,12 @@ export default function Home() {
 
             <Card
               image="../img/eisteingpt.png"
-              tittle="Eistein GPT"
+              tittle="Einstein GPT"
               description="Inteligência artificial feita para o seu CRM.
-              Melhore a interação com seus clientes com Eistein GPT."
+              Melhore a interação com seus clientes com Einstein GPT."
               button="conhecer"
               fundo="#179DD8"
-              link="./datacloud/eisteingpt.tsx"
+              link="./eisteingpt/"
             />
             <Card
               image="../img/datacloud.png"
@@ -94,10 +93,10 @@ export default function Home() {
             <Card
               image="../img/salescloud.png"
               tittle="Sales Cloud"
-              description="A melhor plataforma de CRM. Com integração com I.A, análise, e automatize dados com facilidade."
+              description="A melhor plataforma de CRM. Com integração com IA, analise e automatize dados com facilidade."
               button="conhecer"
               fundo="#0A8680"
-              link="./datacloud/salescloud.tsx"
+              link="./salescloud/"
             />
             <Card
               image="../img/marketingcloud.png"
@@ -105,7 +104,7 @@ export default function Home() {
               description="Personalize a interação com seus clientes com a primeira inteligência artificial direcionada a CRM."
               button="conhecer"
               fundo="#FF914D"
-              link="./datacloud/marketingcloud.tsx"
+              link="./marketing/"
             />
           </div>
 
