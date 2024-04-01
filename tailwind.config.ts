@@ -12,8 +12,9 @@ const config: Config = {
         "shadow1":"-10px -20px 5px rgba(0, 0, 0, 0.26)",
         "shadow2":"25px 20px 5px rgba(0, 0, 0, 0.26)",
         "text":"0px 5px 10px rgba(0, 0, 0, 0.25)",
-        "default":"0px 0px 25px rgba(0, 0, 0, 0.25)",
-        "blue-shine":"0px 0px 5px rgba(23, 157, 216, 0.50)"
+        "default":"0px 0px 15px rgba(0, 0, 0, 0.50)",
+        "blue-shine":"0px 0px 5px rgba(23, 157, 216, 0.50)",
+        "dark-shine":"0px 0px 10px rgba(15, 42, 93, 0.50)",
       },
       colors:
       {

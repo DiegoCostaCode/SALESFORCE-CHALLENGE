@@ -21,7 +21,7 @@ export default function Home() {
 
               <div className="flex items-center justify-start space-x-20 my-5">
 
-                <a className="flex items-center justify-start uppercase" href="/">
+                <a className="flex items-center justify-start uppercase" href="./cadastro/">
                   <button className="bg-sf-green px-6 py-1 rounded-3xl font-bold text-[#f9f9f9] transition-all hover:bg-secondary">
                     Teste grátis!
                   </button >
