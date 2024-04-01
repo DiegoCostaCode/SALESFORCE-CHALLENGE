@@ -47,7 +47,7 @@ export default function Cadastro() {
 
                 <div className="flex flex-col w-[700px] position- mb-[25px] mx-[25px]">
                     <label htmlFor="nome" className="font-bold ">Crie suas senha:</label>
-                    <input type="password" id="nome" name="nome" placeholder="Digite seu idioma de preferência" required className="rounded-xl p-1 text-center"/>
+                    <input type="password" id="nome" name="nome" placeholder="Digite sua senha" required className="rounded-xl p-1 text-center"/>
                 </div>
                 
                 <button type="submit" className="bg-secondary text-white font-bold px-6 py-3 w-[300px] rounded-[30px] my-[25px] transition-all hover:drop-shadow-dark-shine">
