@@ -17,7 +17,7 @@ export default function Cadastro() {
 
                 <div className="flex flex-col flex-auto mb-[25px] mx-[25px]">
                     <label htmlFor="nome" className="font-bold ">Seu nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome:" required className="rounded-xl p-1 text-center"/>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required className="rounded-xl p-1 text-center"/>
                 </div>
             
                 <div className="flex flex-col flex-auto mb-[25px] mx-[25px]">
@@ -32,7 +32,7 @@ export default function Cadastro() {
 
                 <div className="flex flex-col flex-auto mb-[25px] mx-[25px]">
                     <label htmlFor="nome" className="font-bold ">Telefone:</label>
-                    <input type="tel" id="nome" name="nome" placeholder="Digite seu nome" required className="rounded-xl p-1 text-center"/>
+                    <input type="tel" id="nome" name="nome" placeholder="Digite seu telefone" required className="rounded-xl p-1 text-center"/>
                 </div>
 
                 <div className="flex flex-col flex-auto mb-[25px] mx-[25px]">
@@ -46,7 +46,7 @@ export default function Cadastro() {
                 </div>
 
                 <div className="flex flex-col w-[700px] position- mb-[25px] mx-[25px]">
-                    <label htmlFor="nome" className="font-bold ">Crie suas senha:</label>
+                    <label htmlFor="nome" className="font-bold ">Crie sua senha:</label>
                     <input type="password" id="nome" name="nome" placeholder="Digite sua senha" required className="rounded-xl p-1 text-center"/>
                 </div>
                 

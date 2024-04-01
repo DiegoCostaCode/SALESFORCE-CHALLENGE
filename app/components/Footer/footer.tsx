@@ -18,7 +18,7 @@ const Footer = () => {
                         <h3 className="text-2xl text-white font-bold my-[15px]">Links</h3>
                             <ul><a>Acessibilidade</a></ul>
                             <ul><a>Data Cloud</a></ul>
-                            <ul><a>Eistien GPT</a></ul>
+                            <ul><a>Einstein GPT</a></ul>
                             <ul><a>Marketing Cloud</a></ul>
                             <ul><a>Salescloud</a></ul>
         
