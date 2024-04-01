@@ -15,14 +15,14 @@ export default function Marketingcloud() {
 
               <div className="flex items-center justify-start space-x-20 my-5">
 
-                <a className="flex items-center justify-start uppercase" href="/">
+                <a className="flex items-center justify-start uppercase" href="./cadastro/">
                   <button className="bg-[#FF914D] px-6 py-1 rounded-3xl font-bold text-[#f9f9f9] transition-all hover:bg-secondary">
                     Teste grátis!
                   </button >
                 </a>
 
                 <a className="flex items-center justify-start" href="/">
-                  <button className="text-[#FF914D] px-6 py-1 border-2 border-datacloud rounded-3xl font-bold transition-all hover:text-[#0F2A5D] hover:border-salesforce-darkbase">
+                  <button className="text-primary px-6 py-1 border-2 border-primary rounded-3xl font-bold transition-all hover:text-[#0F2A5D] hover:border-salesforce-darkbase">
                     Saiba mais
                   </button >
                 </a>

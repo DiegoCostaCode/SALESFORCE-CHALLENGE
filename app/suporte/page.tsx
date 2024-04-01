@@ -1,6 +1,6 @@
 import Card from "../components/Card/card-service";
 
-export default function Cadastro() {
+export default function Suporte() {
   return (
     <main className="flex flex-col justify-center items-center text-secondary ">
         <div className="mb-[50px]">
@@ -10,7 +10,8 @@ export default function Cadastro() {
         <div className="flex flex-col justify-center bg-[#D9D9D9] w-[700px] rounded-[18px] p-12 mb-[50px] drop-shadow-default">
 
            
-            <h1 className="text-3xl uppercase text-center font-bold mb-[50px]">Cadastro Salesforce</h1>
+            <h1 className="text-3xl uppercase text-center font-bold mb-[10px]">Nos escreva uma mensagem!</h1>
+            <p className="text-2xl text-seocondary mb-[50px] text-center">Iremos responder em 24h</p>
         
 
             <form action="url_de_destino" method="post" className="flex justify-center flex-wrap">
@@ -46,12 +47,12 @@ export default function Cadastro() {
                 </div>
 
                 <div className="flex flex-col w-[700px] position- mb-[25px] mx-[25px]">
-                    <label htmlFor="nome" className="font-bold ">Crie sua senha:</label>
-                    <input type="password" id="nome" name="nome" placeholder="Digite sua senha" required className="rounded-xl p-1 text-center"/>
+                    <label htmlFor="nome" className="font-bold ">Escreva sua mensagem aqui</label>
+                    <input type="message" id="nome" name="nome" placeholder="Digite sua mensagem" required className="rounded-xl p-1 text-center"/>
                 </div>
                 
                 <button type="submit" className="bg-secondary text-white font-bold px-6 py-3 w-[300px] rounded-[30px] my-[25px] transition-all hover:drop-shadow-dark-shine">
-                CADASTRAR</button>
+                ENVIAR</button>
                 
             </form>
 

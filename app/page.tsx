@@ -26,7 +26,7 @@ export default function Home() {
                   </button >
                 </a>
 
-                <a className="flex items-center justify-start" href="/">
+                <a className="flex items-center justify-start" href="./suporte/">
                   <button className="text-[#179DD8] px-6 py-1 border-2 border-primary rounded-3xl font-bold transition-all hover:text-[#0F2A5D] hover:border-salesforce-darkbase">
                     Saiba mais
                   </button >
