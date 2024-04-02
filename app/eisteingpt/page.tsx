@@ -22,7 +22,7 @@ export default function Einsteingpt() {
                 </a>
 
                 <a className="flex items-center justify-start" href="/">
-                  <button className="text-[#179DD8] px-6 py-1 border-2 border-datacloud rounded-3xl font-bold transition-all hover:text-[#0F2A5D] hover:border-salesforce-darkbase">
+                  <button className="text-[#179DD8] px-6 py-1 border-2 border-primary rounded-3xl font-bold transition-all hover:text-[#0F2A5D] hover:border-salesforce-darkbase">
                     Saiba mais
                   </button >
                 </a>
