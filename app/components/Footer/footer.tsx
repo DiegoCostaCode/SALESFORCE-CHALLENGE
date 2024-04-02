@@ -16,16 +16,16 @@ const Footer = () => {
                     
                     <section>
                         <h3 className="text-2xl text-white font-bold my-[15px]">Links</h3>
-                            <ul><a>Acessibilidade</a></ul>
-                            <ul><a>Data Cloud</a></ul>
-                            <ul><a>Einstein GPT</a></ul>
-                            <ul><a>Marketing Cloud</a></ul>
-                            <ul><a>Salescloud</a></ul>
+                            <ul><a href="">Acessibilidade</a></ul>
+                            <ul><a href="./datacloud/">Data Cloud</a></ul>
+                            <ul><a href="./eisteingpt">Einstein GPT</a></ul>
+                            <ul><a href="./marketing/">Marketing Cloud</a></ul>
+                            <ul><a href="./salescloud/">Salescloud</a></ul>
         
                     </section>
                     <section >
                         <h3 className="text-2xl text-white font-bold  my-[15px]">Outros</h3>
-                        <ul><a>Integrantes</a></ul>
+                        <ul><a href="./integrantes/">Integrantes</a></ul>
                     </section>
                     <section >
                         <h3 className="text-2xl text-white font-bold  my-[15px]">Redes sociais</h3>
