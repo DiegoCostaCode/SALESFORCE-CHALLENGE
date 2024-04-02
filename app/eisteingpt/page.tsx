@@ -32,7 +32,7 @@ export default function Einsteingpt() {
 
           </div>
 
-          <img className="w-[350px]" src="../img/marketingcloud.png" ></img>
+          <img className="w-[350px]" src="../img/eisteingpt.png" ></img>
         </div>
 
 
